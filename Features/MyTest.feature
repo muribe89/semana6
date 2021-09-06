@@ -1,5 +1,5 @@
-Feature: Realizacion de casos ingresando nombre de usuario y contraseña
+Feature: Realizacion de casos ingresando nombre de usuario y contraseÃ±a
 Scenario: Verificacion de ingreso de sesion
 Given Abrir Chrome
-When ingresar Username "Roly" y Password "1234"
+When ingresar Username "MURIBE" y Password "1234"
 Then inicia sesion
