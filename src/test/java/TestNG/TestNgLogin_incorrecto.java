@@ -20,8 +20,8 @@ public class TestNgLogin_incorrecto {
 		  }
 	  @Test
 	  public void login() {
-			System.out.println("Este paso ingresa el nombre de usuario correcto y contraseña incorrecta en la pagina de login");
-			driver.findElement(By.id("username")).sendKeys("roly");
+			System.out.println("Este paso ingresa el nombre de usuario correcto y contraseÃ±a incorrecta en la pagina de login");
+			driver.findElement(By.id("username")).sendKeys("MURIBE");
 			driver.findElement(By.id("password")).sendKeys("12345");
 	  }
 	  
